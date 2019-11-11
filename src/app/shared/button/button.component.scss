@@ -1,0 +1,19 @@
+.btn-lg {
+  width: 9.375em;
+  font-weight: bold;
+}
+
+.frame{
+  /* border-radius: 5px;
+     border-color: orange;
+     border-width: thick; */
+     transition: transform .2s;
+ }
+
+.frame:hover {
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15);
+  background-color: #39beeb;
+  color: white !important;
+}

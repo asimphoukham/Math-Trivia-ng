@@ -1,0 +1,26 @@
+<div class="container-fluid bg">
+  <div class="row">
+    <div class="col">
+      <div class="header">GREAT JOB!</div>
+    </div>
+  </div>
+  <div class="row ms">
+    <div class="col">KEEP UP THE GREAT WORK
+      <br> MATH WIZ!</div>
+  </div>
+  <div class="row points">
+    <div class="col">
+      You got {{correctCount}} points!
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col d-flex justify-content-center">
+      <app-button [route]="'/game'" btnName="Play again"></app-button>
+    </div>
+  </div>
+  <div class="row mt-2">
+      <div class="col-12 d-flex justify-content-center">
+        <app-button [route]="'/title'" btnName="Home"></app-button>
+      </div>
+    </div>
+</div>

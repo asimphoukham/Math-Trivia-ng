@@ -1,0 +1,57 @@
+.blue{
+    -webkit-text-stroke: 1px black;
+    color: #39beeb;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+//background-image: url(../src/assets/numbers.jpg);
+
+
+
+.btn {
+    width: 12.500em;
+    font-weight: bold;
+}
+
+/* .timer{
+    margin-top: -3rem;
+} */
+
+.score{
+    margin-top: -2rem;
+}
+
+.ques{
+    margin-top: 6vh;
+    color: black;
+    font-weight: bold;
+}
+
+.options{
+    margin-top: 10vh;
+}
+
+.bg{
+    border-style: solid;
+  border-width: 0.938em;
+  min-height: 100vh;
+  color: #39beeb;
+}
+
+.frame{
+    /* border-radius: 5px;
+       border-color: orange;
+       border-width: thick; */
+       transition: transform .2s;
+   }
+   .frame:hover {
+       -ms-transform: scale(1.15); /* IE 9 */
+       -webkit-transform: scale(1.15); /* Safari 3-8 */
+       transform: scale(1.15); 
+       background-color: #39beeb;
+       color: white !important;
+     }
